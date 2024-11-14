@@ -21,7 +21,7 @@ const TrafficLights = () => {
         <div className={`light ${currentColor === 'yellow' ? 'yellow' : ''}`}></div>
         <div className={`light ${currentColor === 'green' ? 'green' : ''}`}></div>
       </div>
-      <button onClick={changeColor}>Змінити колір</button>
+      <button onClick={changeColor}>Change color</button>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import TrafficLights from './TrafficLights.js';
 function App() {
   return (
     <div className="App">
-      <h1>Світлофор</h1>
+      <h1>Traffic Light</h1>
       <TrafficLights />
     </div>
   );
